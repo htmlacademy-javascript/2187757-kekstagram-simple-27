@@ -12,5 +12,6 @@ function stringLehgth(string, length) {
   return string.lehgth <= length;
 }
 
+
 returnNumber(1, 10);
 stringLehgth('', 100);
