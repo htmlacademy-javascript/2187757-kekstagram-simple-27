@@ -1,4 +1,4 @@
-function returnNumber(min, max) {
+function getRandomPositiveInteger(min, max) {
   if (min < 0 || max < 0) {
     return NaN;
   }
@@ -8,10 +8,10 @@ function returnNumber(min, max) {
   return Math.floor(result);
 }
 
-function stringLehgth(string, length) {
+function checkStringLength(string, length) {
   return string.lehgth <= length;
 }
 
 
-returnNumber(1, 10);
-stringLehgth('', 100);
+getRandomPositiveInteger(1, 10);
+checkStringLength('', 100);
